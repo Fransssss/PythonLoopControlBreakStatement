@@ -17,6 +17,7 @@ while choice != "Q" and choice != "q":     # while input is not q/Q
     elif choice == "3":
         color = input("\nwhat is your favorite color: ")
         print("Your favorite color is " + color)
+        break
     else:
         print("\n[Invalid choice]\n")
 
